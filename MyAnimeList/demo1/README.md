@@ -15,6 +15,7 @@ Avant d'exécuter l'application, assurez-vous d'avoir les éléments suivants in
 JavaFX SDK**
 
 #**Comment exécuter l'application ?** 
+
 Clonez ce dépôt sur votre machine locale.
 Assurez-vous d'avoir configuré votre environnement de développement pour inclure les bibliothèques JavaFX nécessaires.
 Compilez le projet en utilisant la commande suivante :
