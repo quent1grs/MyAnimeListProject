@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="640.0">
+        <children>
+          <AnchorPane prefHeight="546.0" prefWidth="351.0" style="-fx-background-color: black; -fx-border-radius: 5px; -fx-background-radius: 5px;"  VBox.vgrow="ALWAYS">
+               <children>
+                  <Text fill="WHITE" layoutX="206.0" layoutY="69.0" lineSpacing="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MyAnime">
+                     <font>
+                        <Font name="Helvetica Neue Condensed Bold" size="41.0" />
+                     </font>
+                  </Text>
+                  <Button id="Enter" layoutX="97.0" layoutY="226.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="141.0" style="-fx-border-radius: 5px; -fx-background-radius: 5px; -fx-background-color: orange;" text="- WANT TO ENTER -">
+                     <font>
+                        <Font name="Helvetica Neue Condensed Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="306.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="community">
+                     <font>
+                        <Font size="1.0" />
+                     </font>
+                  </Text>
+                  <Button id="leave" layoutX="387.0" layoutY="226.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="170.0" style="-fx-background-radius: 5px; -fx-border-radius: 5px; -fx-background-color: grey;" text="- DONT WANT UWU -" textFill="#f8f8f8">
+                     <font>
+                        <Font name="Helvetica Neue Condensed Bold" size="15.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets top="7.0" />
+                     </opaqueInsets>
+                  </Button>
+                  <TextFlow layoutX="357.0" layoutY="28.0" prefHeight="51.0" prefWidth="82.0" style="-fx-background-color: orange; -fx-border-radius: 5px; -fx-background-radius: 5px;">
+                     <children>
+                        <Text fill="#252323" strokeType="OUTSIDE" strokeWidth="0.0" text=" List">
+                           <font>
+                              <Font name="Helvetica Neue Condensed Bold" size="41.0" />
+                           </font>f
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <Text fill="WHITE" layoutX="282.0" layoutY="99.0" lineSpacing="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="c o m m u n i t y">
+                     <font>
+                        <Font name="Helvetica Neue Condensed Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#cdc1c1" layoutX="201.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Are You Sure You Want To Enter ?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fcf8f8" layoutX="117.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Our parental controls page explains how you can easilyblock access to this site." />
+                  <Text fill="#eeebeb" layoutX="247.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© MyAnimeList, 2024 RTA" />
+               </children>
+          </AnchorPane>
+        </children>
+      </VBox>
+   </children>
+</AnchorPane>
